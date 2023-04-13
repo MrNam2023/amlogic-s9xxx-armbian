@@ -20,7 +20,7 @@ on:
       armbian_board:
         description: "Select Box Board."
         required: false
-        default: "all"
+        default: "s905w"
         type: choice
         options:
           - all
@@ -94,7 +94,7 @@ on:
         default: ""
 
 env:
-  TZ: America/New_York
+  TZ: Asia/Ho_Chi_Minh
 
 jobs:
   build:
