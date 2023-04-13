@@ -20,7 +20,7 @@ on:
       armbian_board:
         description: "Select device board."
         required: false
-        default: "all"
+        default: "s905w"
         type: choice
         options:
           - all
