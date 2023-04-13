@@ -91,7 +91,7 @@ on:
       armbian_sign:
         description: "Set armbian custom name."
         required: false
-        default: ""
+        default: "HVKTQS"
 
 env:
   TZ: Asia/Ho_Chi_Minh
@@ -190,6 +190,6 @@ jobs:
             These are the Armbian OS image
             * OS information
             Default username: root
-            Default password: 1234
+            Default password: bmtl
             Install command: armbian-install
             Update command: armbian-update
